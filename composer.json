@@ -1,0 +1,29 @@
+{
+    "name": "simtabi/gechemba",
+    "homepage": "https://github.com/simtabi/gechemba",
+    "description": "Bootstrap 5 components for Laravel Livewire.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Imani",
+            "email": "imani@simtabi.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^8.0",
+        "livewire/livewire": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Simtabi\\Gechemba\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Simtabi\\Gechemba\\Providers\\GechembaServiceProvider"
+            ]
+        }
+    }
+}
